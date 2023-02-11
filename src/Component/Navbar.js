@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.css';
 
-function App() {
+const Navibar = () => {
   return (
     <Navbar bg='primary' variant="dark">
     <Container>
@@ -44,4 +44,4 @@ function App() {
   );
 }
 
-export default App;
+export default Navibar;

@@ -1,6 +1,9 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Header from './Component/Navbar'
+import Wakaf from './Pages/Wakaf'
+import Footer from "./Component/Footer"
+import Frm from "./Pages/form"
 
 function App() {
   return (
@@ -20,7 +23,9 @@ function App() {
         </a>
       </header>
     </div>*/
-    <Header />
+    //<div id="particles-js"></div>
+    //<Header />
+    <Frm />
   );
 }
 
