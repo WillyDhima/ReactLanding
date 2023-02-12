@@ -4,6 +4,8 @@ import Header from './Component/Navbar'
 import Wakaf from './Pages/Wakaf'
 import Footer from "./Component/Footer"
 import Frm from "./Pages/form"
+import Landing from "./Pages/chatgpt"
+import Accordion from "./Pages/Accordion_Wakaf"
 
 function App() {
   return (
@@ -25,7 +27,7 @@ function App() {
     </div>*/
     //<div id="particles-js"></div>
     //<Header />
-    <Frm />
+    <Landing />
   );
 }
 
