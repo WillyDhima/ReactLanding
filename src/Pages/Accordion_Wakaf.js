@@ -1,8 +1,9 @@
 import { Accordion } from "react-bootstrap";
+import '../scss/_accordion_scss.scss'
 
 const Wakaf = () => {
     return(
-        <Accordion defaultActiveKey="0">
+        <Accordion defaultActiveKey="0" className="Accordion_border">
             <Accordion.Item eventKey="0">
                 <Accordion.Header>Wakaf</Accordion.Header>
                 <Accordion.Body>
